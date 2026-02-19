@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
         Conversion("Miles to Kilometers", "Miles", "Kilometers", 1.6093),
         Conversion("Kilometers to Miles", "Kilometers", "Miles", 0.6214),
         Conversion("Inches to Centimeters", "Inches", "Centimeters", 2.54),
-        Conversion("Centimeters to Inches", "Centimeters", "Inches", 0.3937)
+        Conversion("Centimeters to Inches", "Centimeters", "Inches", 0.3937),
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {
