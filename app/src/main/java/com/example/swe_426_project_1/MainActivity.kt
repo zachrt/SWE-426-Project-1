@@ -102,7 +102,7 @@ class MainActivity : AppCompatActivity() {
             toUnitValue.text = "Invalid Input"
             return
         } else if ( inputValue > 1000000000) {
-            toUnitValue.text = "Input To High"
+            toUnitValue.text = "Input Too High"
             return
         }
 
