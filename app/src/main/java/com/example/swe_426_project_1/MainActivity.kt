@@ -101,6 +101,9 @@ class MainActivity : AppCompatActivity() {
         if (inputValue == null) {
             toUnitValue.text = "Invalid Input"
             return
+        } else if ( inputValue > 1000000000) {
+            toUnitValue.text = "Input To High"
+            return
         }
 
         val selected = conversions[spinner.selectedItemPosition]
